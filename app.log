@@ -1,0 +1,23 @@
+INFO:root:Inputs: n_clicks_show=0, n_clicks_run=0, module_name=utility_module_1, arguments=None
+INFO:dash.dash:Dash is running on http://127.0.0.1:8050/
+
+INFO:root:Inputs: n_clicks_show=0, n_clicks_run=0, module_name=utility_module_1, arguments=None
+INFO:root:Inputs: n_clicks_show=1, n_clicks_run=0, module_name=utility_module_1, arguments=None
+INFO:root:Inputs: n_clicks_show=1, n_clicks_run=0, module_name=utility_module_1, arguments=5
+INFO:root:Inputs: n_clicks_show=1, n_clicks_run=0, module_name=utility_module_1, arguments=5 
+INFO:root:Inputs: n_clicks_show=1, n_clicks_run=0, module_name=utility_module_1, arguments=5 1
+INFO:root:Inputs: n_clicks_show=1, n_clicks_run=0, module_name=utility_module_1, arguments=5 12
+INFO:root:Inputs: n_clicks_show=1, n_clicks_run=1, module_name=utility_module_1, arguments=5 12
+INFO:root:Result: 17.0
+
+
+INFO:root:Inputs: n_clicks_show=2, n_clicks_run=1, module_name=utility_module_1, arguments=5 12
+INFO:root:Inputs: n_clicks_show=2, n_clicks_run=1, module_name=utility_module_1, arguments=5 12q
+INFO:root:Inputs: n_clicks_show=2, n_clicks_run=1, module_name=utility_module_1, arguments=5 12
+INFO:root:Inputs: n_clicks_show=2, n_clicks_run=1, module_name=utility_module_1, arguments=5 121
+INFO:root:Inputs: n_clicks_show=2, n_clicks_run=2, module_name=utility_module_1, arguments=5 121
+INFO:root:Result: 126.0
+
+
+INFO:root:Inputs: n_clicks_show=3, n_clicks_run=2, module_name=utility_module_1, arguments=5 121
+INFO:root:Inputs: n_clicks_show=4, n_clicks_run=2, module_name=utility_module_1, arguments=5 121
