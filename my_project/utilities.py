@@ -23,10 +23,20 @@ def get_argparse_help(module_name):
 def main():
     parser = argparse.ArgumentParser(description="Utility script runner.")
     parser.add_argument('module_name', type=str, help='Name of the utility module.')
+    parser.add_argument('arguments', type=int, nargs='*', help='Additional arguments.')
     args = parser.parse_args()
 
-    help_message = get_argparse_help(args.module_name)
-    print(help_message)
+    # Example usage of dynamic_module_call
+    try:
+        if '--help' in args.module_name:
+            # Display help message only if --help is explicitly provided
+            help_message = get_argparse_help(args.module_name)
+            print(help_message)
+        else:
+            result = dynamic_module_call(args.module_name, *args.arguments)
+            print(f"Result from dynamic_module_call: {result}")
+    except ImportError as e:
+        print(f"ImportError: {str(e)}")
 
 if __name__ == "__main__":
     main()
